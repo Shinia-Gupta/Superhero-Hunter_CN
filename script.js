@@ -16,7 +16,10 @@ const itemsPerPage = 20; // Number of items to fetch per page
 //Function to fetch the data from the API
 async function fetchURL(){
     const offset = (currentPage - 1) * itemsPerPage;
-    const response = await fetch(`${url}&offset=${offset}`);
+    const response = await fetch(`${url}&offset=${offset}`,
+     {
+        'referrerPolicy': 'unsafe-url',
+      });
     const jsonData = await response.json();
     copyright.innerHTML=jsonData.attributionHTML
     characters = jsonData.data.results;

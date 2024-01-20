@@ -56,7 +56,9 @@ async function fetchData(id, typeOfInfo, containerClass) {
   containerToFill.innerHTML = "";
 
   const response = await fetch(
-    `${url2}${id}/${typeOfInfo}?ts=${timestamp}&apikey=${apikey}&hash=${hashValue}`
+    `${url2}${id}/${typeOfInfo}?ts=${timestamp}&apikey=${apikey}&hash=${hashValue}`,{
+      'referrerPolicy': 'unsafe-url',
+    }
   );
   const jsonData = await response.json();
   console.log("thumbnail: ", jsonData);

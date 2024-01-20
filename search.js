@@ -43,7 +43,9 @@ export async function searchCharacter() {
     return;
   }
 
-  const response = await fetch(`${url}&nameStartsWith=${userInput}`);
+  const response = await fetch(`${url}&nameStartsWith=${userInput}`,{
+    'referrerPolicy': 'unsafe-url',
+  });
   const jsonData = await response.json();
   searchedCharacters = jsonData.data["results"];
 
