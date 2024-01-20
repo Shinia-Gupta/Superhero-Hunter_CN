@@ -10,6 +10,8 @@ Superhero Hunter App is a web application developed using HTML, CSS, and JavaScr
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Screenshots of Project](#screenshots-of-project)
+- [Live Demo](#live-demo)
+  
 ## Introduction
 
 Superhero Hunter App is a coding ninjas skill test project that brings the Marvel universe to your fingertips. It leverages HTML, CSS, and JavaScript to provide users with a visually appealing and interactive experience. Users can browse through a catalog of superheroes, view details, and manage their favorite superheroes.
@@ -94,3 +96,8 @@ Contributions are welcome! If you'd like to contribute to the Superhero Hunter A
 
 ![image](https://github.com/Shinia-Gupta/Superhero-Hunter_CN/assets/113818197/77061659-0a96-47d3-995c-e529783a4271)
 
+## Live Demo
+
+[Project Live Demo](## Live Demo
+
+[Project Live Demo](https://shinia-gupta.github.io/Superhero-Hunter_CN/)
