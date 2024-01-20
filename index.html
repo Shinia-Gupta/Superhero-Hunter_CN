@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-div">
+        <div id="site-icon"><img src="./images/siteIcon.png" alt="Marvel icon" id="siteIconimg"></div>
+        <div id="searchbar">
+            <input type="text" id="inputbox" placeholder="Hunt your hero">
+            <!-- <button id="searchBtn"><img src="./images/searchbtnicon.jpg" id="searchBtnIcon"></button> -->
+            <div id="searchContainer"></div>
+        </div>
+        <div id="header-right">
+        <div id="modeChange"><img src="./images/modeIcon.png" alt="mode changer" id="modeChangeIcon"></div>
+        <div id="favouritesicon"><img src="./images/favouritesicon.png" alt="Add to favourites icon" id="favIcon">
+        <p>Favourites</p></div>
+        </div>
+    </div>
+</header>
+
+    <main>
+
+        <section id="homepage">
+            <div class="container">
+                <div class="cardsContainer"></div>
+                <div class="likedContainer"></div>
+            </div>
+        </section>
+
+        <section id="card-detail-section">
+            <div class="container2">
+                <button id="backBtn">Back to Homepage</button>
+                <div class="minimal-details">
+                    
+                        <div class="card-character"></div>
+                        <div class="card-detail"></div>
+                            
+                    </div>
+                    </div>
+                    
+                <h2 class="info-heading">Comics</h2>
+                <div class="comic-cards-container info-cards"></div>
+                <h2 class="info-heading">Events</h2>
+                <div class="event-cards-container info-cards"></div>
+                <h2 class="info-heading">Series</h2>
+                <div class="series-cards-container info-cards"></div>
+                <!-- <h2 class="info-heading">Stories</h2> -->
+                <!-- <div class="story-cards-container info-cards"></div> -->
+            </div>
+        </section>
+
+    </main>
+    
+    <Footer>
+        <div class="footer-div">
+        <div class="footer-buttons">
+            <button id="prevBtn" class="apiBtn">Previous </button>
+            <button id="nextBtn" class="apiBtn">Next</button>
+        </div>
+            <div class="footerText"></div>
+
+        </div>
+    </Footer>
+
+    <script src="script.js" type="module"></script>
+    
+</body>
+</html>
