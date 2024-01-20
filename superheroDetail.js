@@ -91,9 +91,9 @@ async function fetchData(id, typeOfInfo, containerClass) {
 
 //Function to change the displays for a page type
 function displaySet() {
-  console.log("displaySet");
-  console.log("sectionHome.style.display:" + sectionHome.style.display);
-  console.log("sectionDetail.style.display:" + sectionDetail.style.display);
+  // console.log("displaySet");
+  // console.log("sectionHome.style.display:" + sectionHome.style.display);
+  // console.log("sectionDetail.style.display:" + sectionDetail.style.display);
 
   if (sectionHome.style.display === "flex") {
     sectionHome.style.display = "none";
@@ -111,9 +111,9 @@ function displaySet() {
 
   }
 
-  console.log("After setting values:");
-  console.log("sectionHome.style.display:", sectionHome.style.display);
-  console.log("sectionDetail.style.display:", sectionDetail.style.display);
+//   console.log("After setting values:");
+//   console.log("sectionHome.style.display:", sectionHome.style.display);
+//   console.log("sectionDetail.style.display:", sectionDetail.style.display);
 }
 
 //Event handler to go back to homepage from a character detail page
