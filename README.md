@@ -20,6 +20,7 @@ Superhero Hunter App is a coding ninjas skill test project that brings the Marve
 - Explore details about individual superheroes.
 - Like or unlike superheroes to add or remove them from your favorites.
 - View your favorite superheroes in a separate section.
+- Responsive design
 
 ## Getting Started
 
