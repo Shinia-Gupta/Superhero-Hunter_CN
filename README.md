@@ -9,7 +9,7 @@ Superhero Hunter App is a web application developed using HTML, CSS, and JavaScr
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Screenshots of Project](#screenshots)
+- [Screenshots of Project](#screenshots-of-project)
 ## Introduction
 
 Superhero Hunter App is a coding ninjas skill test project that brings the Marvel universe to your fingertips. It leverages HTML, CSS, and JavaScript to provide users with a visually appealing and interactive experience. Users can browse through a catalog of superheroes, view details, and manage their favorite superheroes.
