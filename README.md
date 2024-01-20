@@ -98,6 +98,4 @@ Contributions are welcome! If you'd like to contribute to the Superhero Hunter A
 
 ## Live Demo
 
-[Project Live Demo](## Live Demo
-
 [Project Live Demo](https://shinia-gupta.github.io/Superhero-Hunter_CN/)
